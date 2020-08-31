@@ -1,0 +1,17 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+@import url(./__image/cover__image.css);
+
+.cover {
+    outline: 1px solid red;
+    background-image: url("https://s3-alpha-sig.figma.com/img/3240/dbd8/17fd58b80f252855d51020659c1e65e8?Expires=1598227200&Signature=VZu7vyHSpeuVKuSXi9vhxsPmkfeNDrnFyv7aKR4claRZqaUVnI7UlrJpSCpXa3aabaKH04~uZRPc0afsiRhPDPsLX0I01GchyeiBS6vZ5zo7~BCStvglSCE9mJTnG5lkpo~acc-NUdgyuibczRdgfuuH0rWMNyNXwQaSTYazJDa40n3vnY6QHAcYHngjkfBykOdd5e818y7nsYdwkMu~0NJiDp8K7p~lO67iT-vMJ~66p2wOWybNMVqaEwyB3U0oD7Y5t~IJ9b4khVzVeHmm6yMXTQh-6jlnFKtL7zCztas~PF-55x1t~XysLfD15C1Wyw~l2aYNfSsMSKhbCIg28Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-size: cover;
+    width: 1184px;
+    height: 740px;
+    margin: 0 auto;
+}
+
+.cover:hover{
+    background: rgba(88, 88, 88, 0.1);
+}

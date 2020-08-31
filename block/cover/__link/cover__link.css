@@ -1,0 +1,9 @@
+.cover__link {
+    text-decoration: none;
+    width: 1184px;
+    height: 740px;
+}
+
+.cover__link:hover{
+    opacity: 0.8;
+}

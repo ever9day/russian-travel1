@@ -1,0 +1,11 @@
+@import url(./place/place.css);
+
+
+
+.places{
+    width: 984px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 92px;
+}
