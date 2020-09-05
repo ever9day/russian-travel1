@@ -1,0 +1,14 @@
+@media all and (min-width: 1280px) {
+    .photo-grid {
+        max-width: 1184px;
+        display: grid;
+        grid-template-columns: 284px 284px 284px 284px;
+        grid-template-rows: 213px 213px 213px;
+        gap: 16px;
+    }
+    
+    .photo-grid__image {
+        width: 284px;
+        height: 213px;
+    }
+}

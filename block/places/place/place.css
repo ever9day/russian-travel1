@@ -9,11 +9,11 @@
 .place{
     list-style-type: none;
     padding: 0;
-    width: 984px;
-    max-height: 660px;
+    width: 928px;
+    max-height: 640px;
     display: grid;
-    grid-template-columns: 460px 456px;
-    grid-template-rows: 152px 460px;
+    grid-template-columns: 440px 456px;
+    grid-template-rows: 152px 440px;
     column-gap: 48px;
     row-gap: 40px;
     margin-bottom: 80px;
