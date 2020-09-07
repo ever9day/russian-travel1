@@ -8,6 +8,23 @@
 @import url(../block/footer/footer.css);
 @import url(../block/page.css);
 
+@font-face {
+    font-family: 'Inter';
+    src:  url('../fonts/Inter-Regular-slnt_0.woff') format('woff'),
+          url('../fonts/Inter-Regular-slnt=0.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Inter-bold';
+    src:  url('../fonts/Inter-Bold-slnt_0.woff') format('woff'),
+          url('../fonts/Inter-Bold-slnt=0.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Inter-black';
+    src:  url('../fonts/Inter-Black-slnt_0.woff') format('woff'),
+          url('../fonts/Inter-Black-slnt=0.ttf') format('truetype');
+  }
 
 @media all and (min-width: 1280px) {
     .header{
@@ -288,6 +305,76 @@ color: #FFFFFF;
     .place{
         padding: 0;
         max-width: 320px;
-        
+        display: flex;
+        flex-direction: column;
+    }
+    .place__title{
+        margin: 0 auto;
+        width: 288px;
+        font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+/* identical to box height, or 109% */
+
+
+color: #FFFFFF;
+    }
+    .place__image{
+        max-width: 320px;
+        height: 320px;
+        margin-top: 32px;
+    }
+    .place__website{
+        display: none;
+    }
+    .place__paragraph{
+        margin-top: 32px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 288px;
+        font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 163%;
+/* or 26px */
+
+
+color: #FFFFFF;
+    }
+
+
+    .cover{
+        max-width: 320px;
+        height: 200px;
+    }
+    .cover__title{
+        max-width: 288px;
+        font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+/* or 109% */
+
+text-align: center;
+
+color: #FFFFFF;
+    }
+    .cover__subtitle{
+        max-width: 288px;
+        font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+
+text-align: center;
+
+color: #FFFFFF;
     }
 }
