@@ -1,7 +1,6 @@
 @import url(./__image/photo-grid__image.css);
 
 .photo-grid{
-    outline: 1px solid red;
     max-width: 928px;
     height: 942px;
     display: grid;
