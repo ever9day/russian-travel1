@@ -307,7 +307,6 @@ color: #FFFFFF;
         padding: 0;
     }
     .place{
-        outline: 1px solid red ;
         list-style-type: none;
         padding: 0;
         max-width: 320px;
@@ -320,7 +319,6 @@ color: #FFFFFF;
         margin: 0;
     }
     .place__title{
-        outline: 1px solid red ;
         display: flex;
         flex-direction: row;
         width: 288px;
@@ -336,7 +334,6 @@ color: #FFFFFF;
         margin: 0 auto;
     }
     .place__image{
-        outline: 1px solid red ;
         max-width: 320px;
         height: 320px;
     }
@@ -345,7 +342,6 @@ color: #FFFFFF;
     }
 
     .place__paragraph-text{
-        outline: 1px solid red ;
         max-width: 288px;
         font-family: Inter;
 font-style: normal;
