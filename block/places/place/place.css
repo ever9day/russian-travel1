@@ -9,8 +9,8 @@
 .place{
     list-style-type: none;
     padding: 0;
-    width: 928px;
-    max-height: 640px;
+    max-width: 928px;
+    height: 640px;
     display: grid;
     grid-template-columns: 440px 456px;
     grid-template-rows: 152px 440px;
