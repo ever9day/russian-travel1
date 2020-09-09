@@ -178,7 +178,7 @@
 @media all and (max-width: 320px){
     .header{
         max-width: 288px;
-        margin-top: 16px;
+        margin-top: 0px;
         margin-bottom: 48px;
         margin-left: auto;
         margin-right: auto;
@@ -196,7 +196,7 @@
     .lead__title{
         max-width: 288px;
         height: 88px;
-        font-family: Inter;
+        font-family: Inter-black;
 font-style: normal;
 font-weight: 900;
 font-size: 40px;
@@ -244,7 +244,7 @@ color: #FFFF
     .intro__title{
         max-width: 288px;
         height: 70px;
-        font-family: Inter;
+        font-family: Inter-black;
 font-style: normal;
 font-weight: 900;
 font-size: 32px;
@@ -312,6 +312,7 @@ color: #FFFFFF;
         list-style-type: none;
         padding: 0;
         max-width: 320px;
+        
         display: grid;
         grid-template-columns: 320px;
         grid-template-rows: 35px 320px 320px;
@@ -324,7 +325,7 @@ color: #FFFFFF;
     .place__title{
         outline: 1px solid red ;
         width: 288px;
-        font-family: Inter;
+        font-family: Inter-black;
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
@@ -344,7 +345,8 @@ color: #FFFFFF;
         outline: 1px solid red;
         display: none;
     }
-    .place__paragraph{
+
+    .place__paragraph-text{
         outline: 1px solid red ;
         max-width: 288px;
         font-family: Inter;
@@ -367,9 +369,10 @@ color: #FFFFFF;
         background-size: cover;
     }
     .cover__title{
-
+        padding-top: 33px;
         max-width: 288px;
-        font-family: Inter;
+        height: 70px;
+        font-family: Inter-black;
 font-style: normal;
 font-weight: 900;
 font-size: 32px;
@@ -379,9 +382,12 @@ line-height: 35px;
 text-align: center;
 
 color: #FFFFFF;
+margin-bottom: 16px;
     }
     .cover__subtitle{
+        padding: 0;
         max-width: 288px;
+        height: 48px;
         font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -392,5 +398,28 @@ line-height: 16px;
 text-align: center;
 
 color: #FFFFFF;
+    }
+
+    .footer{
+        max-width: 288px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 288px;
+    }
+    .footer__list-link{
+        max-width: 74px;
+        height: 24px;
+        margin-bottom: 32px;
+    }
+    .footer__copyright{
+        display: flex;
+        flex-direction: row;
     }
 }

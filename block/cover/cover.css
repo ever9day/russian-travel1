@@ -7,11 +7,14 @@
     outline: 1px solid red;
     background-image: url("../../photo/17fd58b80f252855d51020659c1e65e8.jpg");
     background-size: cover;
-    width: 1024px;
+    max-width: 1024px;
     height: 640px;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 92px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .cover:hover{
-    background: rgba(88, 88, 88, 0.1);
+    background: rgba(0, 0, 0, 0.8);
 }
